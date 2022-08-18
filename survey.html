@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    </head>
+    <body>
+      <header>
+        <h1 id="title"> OROCK'S SURVEY</h1>
+        <p id="description">What do you think of our freecodecamp videos so far?</p>
+        </header>
+        <main>
+          <form id="survey-form">
+
+            <label for="name" id="name-label">Please enter your name: </label>
+            <input id="name" type="text" required placeholder="blessing orock">
+
+            <hr>
+
+            <label for="email" id="email-label">Please enter your email: </label>
+            <input id="email" type="email" required placeholder="blessingorock6@gamil.com">
+            </hr>
+            <label for="number" id="number-label">Please enter your age: </label>
+            <input id="number" type="number" min="5" max="100" placeholder="age" required>
+
+            <label for="dropdown">Gender</label>
+            <select id="dropdown">
+          
+ <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+<hr>
+            <label> Cupcake or Cake
+            <input type="radio" name="radio-group" id="cupcake" value="0">
+            <label for="cupcake">CUPCAKE</label>
+            <input type="radio" name="radio-group" id="cake" value="1">
+            <label for="cake">CAKE</label>
+<hr>
+            <label> Pizza or Burger: </label>
+            <input type="checkbox" value="0" id="Pizza">
+            <label for="Pizza">Pizza</label>
+            <input type="checkbox" value="1" id="Burger">
+            <label for="Burger">Burger</label>
+<hr>
+            <textarea>
+              Please enter your additional comments here:
+
+              </textarea>
+<hr>
+
+
+             <input id="submit" type="submit">
+            </form>
+          </main>
+        </html>
